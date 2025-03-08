@@ -27,4 +27,18 @@ entries:
     urls:
     - https://github.com/jsknnr/helm-charts/releases/download/enshrouded-dedicated-server-1.0.0/enshrouded-dedicated-server-1.0.0.tgz
     version: 1.0.0
-generated: "2025-03-08T16:23:50.587359891Z"
+  soulmask-dedicated-server:
+  - apiVersion: v1
+    created: "2025-03-08T18:18:40.057898108Z"
+    description: Soulmask dedicated server.
+    digest: 253fdb9f09b2e5caf43f78de7b15bcb504fec432b91a711d83964bf134129422
+    home: https://github.com/jsknnr/soulmask-dedicated-server
+    keywords:
+    - game
+    - server
+    - soulmask
+    name: soulmask-dedicated-server
+    urls:
+    - https://github.com/jsknnr/helm-charts/releases/download/soulmask-dedicated-server-1.0.1/soulmask-dedicated-server-1.0.1.tgz
+    version: 1.0.1
+generated: "2025-03-08T18:18:40.057908728Z"
