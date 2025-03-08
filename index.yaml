@@ -1,5 +1,18 @@
 apiVersion: v1
 entries:
+  ark-survival-ascended:
+  - apiVersion: v1
+    created: "2025-03-08T16:23:50.587349592Z"
+    description: Ark Survival Ascended dedicated server.
+    digest: 92b5e0a2486ff91bc44e6a550880ebdf25a3bfc8e132125020b73c9d12d407f7
+    home: https://playark.com/
+    keywords:
+    - game
+    - server
+    name: ark-survival-ascended
+    urls:
+    - https://github.com/jsknnr/helm-charts/releases/download/ark-survival-ascended-1.0.1/ark-survival-ascended-1.0.1.tgz
+    version: 1.0.1
   enshrouded-dedicated-server:
   - apiVersion: v1
     created: "2025-03-08T16:00:49.026065836Z"
@@ -14,4 +27,4 @@ entries:
     urls:
     - https://github.com/jsknnr/helm-charts/releases/download/enshrouded-dedicated-server-1.0.0/enshrouded-dedicated-server-1.0.0.tgz
     version: 1.0.0
-generated: "2025-03-08T16:00:49.026075525Z"
+generated: "2025-03-08T16:23:50.587359891Z"
