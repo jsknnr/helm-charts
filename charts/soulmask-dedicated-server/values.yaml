@@ -1,0 +1,37 @@
+image:
+  repository: sknnr/soulmask-dedicated-server
+  tag: latest
+
+service:
+  type: LoadBalancer
+  externalIPs: []
+  annotations: {}
+
+resources:
+  requests:
+    memory: 16G
+    cpu: 4.0
+
+volumes:
+  dataPVC:
+    size: 50Gi
+  storageClassName: ""
+
+config:
+  serverName: "Soulmask Containerized"
+  gameMode: "pve"
+  serverLevel: "Level01_Main"
+  serverPassword: ""
+  adminPassword: ""
+  gamePort: 27050
+  queryPort: 27051
+  serverSlots: 50
+  listenAddress: 0.0.0.0
+  backup: 900
+  saving: 600
+  rconAddress: ""
+  rconPort: ""
+  rconPassword: ""
+  modIdList: 
+  backIntervalMinutes: ""
+  initBackup: "false"
