@@ -41,4 +41,18 @@ entries:
     urls:
     - https://github.com/jsknnr/helm-charts/releases/download/soulmask-dedicated-server-1.0.1/soulmask-dedicated-server-1.0.1.tgz
     version: 1.0.1
-generated: "2025-03-08T18:18:40.057908728Z"
+  zomboid-dedicated-server:
+  - apiVersion: v1
+    created: "2025-03-13T21:45:52.864121004Z"
+    description: Project Zomboid dedicated server.
+    digest: 068e9171afbc97be97c5c1e85831297a4130464768ba110054181444d6a03db4
+    home: https://github.com/jsknnr/project-zomboid-server
+    keywords:
+    - game
+    - server
+    - zomboid
+    name: zomboid-dedicated-server
+    urls:
+    - https://github.com/jsknnr/helm-charts/releases/download/zomboid-dedicated-server-1.0.0/zomboid-dedicated-server-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-03-13T21:45:52.864126344Z"
