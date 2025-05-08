@@ -13,6 +13,20 @@ entries:
     urls:
     - https://github.com/jsknnr/helm-charts/releases/download/ark-survival-ascended-1.0.1/ark-survival-ascended-1.0.1.tgz
     version: 1.0.1
+  arma-reforger-server:
+  - apiVersion: v1
+    created: "2025-05-08T16:57:37.620916606Z"
+    description: Arma Reforger dedicated server.
+    digest: 4fd527e22943d53780802bef311151f153bc609375b5f3b6c827d9bedad66177
+    home: https://github.com/jsknnr/arma-reforger-server
+    keywords:
+    - game
+    - server
+    - arma
+    name: arma-reforger-server
+    urls:
+    - https://github.com/jsknnr/helm-charts/releases/download/arma-reforger-server-1.0.0/arma-reforger-server-1.0.0.tgz
+    version: 1.0.0
   enshrouded-dedicated-server:
   - apiVersion: v1
     created: "2025-03-08T16:00:49.026065836Z"
@@ -55,4 +69,4 @@ entries:
     urls:
     - https://github.com/jsknnr/helm-charts/releases/download/zomboid-dedicated-server-1.0.0/zomboid-dedicated-server-1.0.0.tgz
     version: 1.0.0
-generated: "2025-03-13T21:45:52.864126344Z"
+generated: "2025-05-08T16:57:37.620924902Z"
