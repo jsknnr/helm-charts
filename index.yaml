@@ -29,6 +29,19 @@ entries:
     version: 1.0.0
   enshrouded-dedicated-server:
   - apiVersion: v1
+    created: "2026-01-19T03:58:58.524458941Z"
+    description: Enshrouded dedicated server.
+    digest: 0d72916471c3f140706702a9f56053429d1d93850ef8cc3b046038da380d2197
+    home: https://github.com/jsknnr/enshrouded-server
+    keywords:
+    - game
+    - server
+    - enshrouded
+    name: enshrouded-dedicated-server
+    urls:
+    - https://github.com/jsknnr/helm-charts/releases/download/enshrouded-dedicated-server-1.0.1/enshrouded-dedicated-server-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
     created: "2025-03-08T16:00:49.026065836Z"
     description: Enshrouded dedicated server.
     digest: afa43ebe8d977418c30f31936762bbf6242da673c15093e85608fe1f7fdd3ee2
@@ -69,4 +82,4 @@ entries:
     urls:
     - https://github.com/jsknnr/helm-charts/releases/download/zomboid-dedicated-server-1.0.0/zomboid-dedicated-server-1.0.0.tgz
     version: 1.0.0
-generated: "2025-05-08T16:57:37.620924902Z"
+generated: "2026-01-19T03:58:58.52447405Z"
