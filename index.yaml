@@ -70,6 +70,19 @@ entries:
     version: 1.0.1
   stationeers-server:
   - apiVersion: v1
+    created: "2026-01-19T16:06:05.53321792Z"
+    description: Stationeers dedicated server.
+    digest: 975a54495cb30937466b5ca369f2fc4beaca55355bc9a48343f6b48b1b780a4b
+    home: https://github.com/jsknnr/stationeers-server
+    keywords:
+    - game
+    - server
+    - stationeers
+    name: stationeers-server
+    urls:
+    - https://github.com/jsknnr/helm-charts/releases/download/stationeers-server-1.0.3/stationeers-server-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v1
     created: "2026-01-19T15:37:20.728173916Z"
     description: Stationeers dedicated server.
     digest: ba8902ba9df8d201cee16d573a816c74acf0ab3128d745a0f31cda44f44c091a
@@ -109,4 +122,4 @@ entries:
     urls:
     - https://github.com/jsknnr/helm-charts/releases/download/zomboid-dedicated-server-1.0.0/zomboid-dedicated-server-1.0.0.tgz
     version: 1.0.0
-generated: "2026-01-19T15:37:20.728185688Z"
+generated: "2026-01-19T16:06:05.533237246Z"
