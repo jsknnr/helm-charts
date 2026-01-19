@@ -68,6 +68,20 @@ entries:
     urls:
     - https://github.com/jsknnr/helm-charts/releases/download/soulmask-dedicated-server-1.0.1/soulmask-dedicated-server-1.0.1.tgz
     version: 1.0.1
+  stationeers-server:
+  - apiVersion: v1
+    created: "2026-01-19T15:28:15.737523539Z"
+    description: Stationeers dedicated server.
+    digest: 4d4b7220bad09f0085cab7f69a430e643fcc4aa0a6d38b07fbfe35d5d8d20a7e
+    home: https://github.com/jsknnr/stationeers-server
+    keywords:
+    - game
+    - server
+    - stationeers
+    name: stationeers-server
+    urls:
+    - https://github.com/jsknnr/helm-charts/releases/download/stationeers-server-1.0.1/stationeers-server-1.0.1.tgz
+    version: 1.0.1
   zomboid-dedicated-server:
   - apiVersion: v1
     created: "2025-03-13T21:45:52.864121004Z"
@@ -82,4 +96,4 @@ entries:
     urls:
     - https://github.com/jsknnr/helm-charts/releases/download/zomboid-dedicated-server-1.0.0/zomboid-dedicated-server-1.0.0.tgz
     version: 1.0.0
-generated: "2026-01-19T03:58:58.52447405Z"
+generated: "2026-01-19T15:28:15.737536864Z"
