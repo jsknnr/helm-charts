@@ -121,6 +121,29 @@ entries:
     urls:
     - https://github.com/jsknnr/helm-charts/releases/download/stationeers-server-1.0.1/stationeers-server-1.0.1.tgz
     version: 1.0.1
+  windrose-server:
+  - apiVersion: v2
+    appVersion: 0.10.0
+    created: "2026-04-19T12:20:45.00166574Z"
+    description: Windrose Dedicated Server running under Wine in a Linux container
+    digest: f4d5ccf531e8847a0c817b1938b4df4f82fd5b4fb2f42d4df733453fe91b3556
+    home: https://github.com/sknnr/windrose-server
+    keywords:
+    - game-server
+    - windrose
+    - wine
+    - steamcmd
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: john@sknnr.io
+      name: John Skinner
+    name: windrose-server
+    sources:
+    - https://github.com/sknnr/windrose-server
+    type: application
+    urls:
+    - https://github.com/jsknnr/helm-charts/releases/download/windrose-server-0.2.0/windrose-server-0.2.0.tgz
+    version: 0.2.0
   zomboid-dedicated-server:
   - apiVersion: v1
     created: "2025-03-13T21:45:52.864121004Z"
@@ -135,4 +158,4 @@ entries:
     urls:
     - https://github.com/jsknnr/helm-charts/releases/download/zomboid-dedicated-server-1.0.0/zomboid-dedicated-server-1.0.0.tgz
     version: 1.0.0
-generated: "2026-01-19T20:45:02.703215857Z"
+generated: "2026-04-19T12:20:45.001681309Z"
